@@ -1,2 +1,0 @@
-After the final report is committed and pushed, run `git rev-parse HEAD` and paste the full hash here.
-The hash in the report should identify the code snapshot before the final PDF commit, because embedding a commit's own hash in a file changes that commit hash.
