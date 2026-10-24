@@ -23,5 +23,3 @@
 ## Verify before submission
 The notebook is the source of truth. Check every value in the report and CSV against the final notebook. Do not claim a clean end-to-end rerun unless you actually perform it. Q3 bias/variance metrics are based on 30 within-identity resampling repetitions.
 
-## Commit hash note
-A commit hash changes whenever committed files change. It is not possible to put the hash of a commit inside a PDF that is itself part of that same commit without changing the hash. The PDF therefore has a **code snapshot commit** placeholder; record the final repository HEAD separately in `FINAL_COMMIT.txt` after the PDF is committed, unless your instructor specifies another convention.
