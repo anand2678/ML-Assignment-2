@@ -20,6 +20,4 @@
 - `requirements.txt`, `environment.yml`: environment setup starting points.
 - `REPRODUCE.md`: Windows/VS Code and GitHub instructions.
 
-## Verify before submission
-The notebook is the source of truth. Check every value in the report and CSV against the final notebook. Do not claim a clean end-to-end rerun unless you actually perform it. Q3 bias/variance metrics are based on 30 within-identity resampling repetitions.
 
