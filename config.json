@@ -1,0 +1,27 @@
+{
+  "dataset": "Olivetti Faces: 400 images, 40 identities, 64x64 grayscale",
+  "roll_number": "m26csa001",
+  "seed": 26001,
+  "split_per_identity": {
+    "train": 6,
+    "validation": 2,
+    "test": 2
+  },
+  "features": "raw flattened pixels, 4096 features, no PCA",
+  "mask": {
+    "rows": "24:40",
+    "columns": "24:40",
+    "value": 0
+  },
+  "selected_tree": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "bagging_trees": 100,
+  "samme": {
+    "max_depth": 4,
+    "rounds": 100
+  },
+  "bias_variance_resamples": 30,
+  "note": "Verify values and settings against your completed notebook before submission."
+}

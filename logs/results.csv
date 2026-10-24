@@ -1,0 +1,15 @@
+Question,Model,Metric,Value,Notes
+Q1(a),Single tree,Clean test accuracy,0.5125,"max_depth=None, min_samples_leaf=1"
+Q1(b),Bagging B=100,Clean test accuracy,0.85,Validation accuracy=0.9125
+Q1(c),Bagging B=200,OOB accuracy,0.7875,Disagreement=0.7844; mean vote margin=0.2855
+Q1(d),Single tree,Masked test accuracy,0.3375,Clean accuracy=0.5125
+Q1(d),Bagging B=100,Masked test accuracy,0.725,Clean accuracy=0.8500
+Q2(b),"SAMME depth=4, rounds=100",Validation accuracy,0.4625,100 accepted learners
+Q2(d),"SAMME depth=4, rounds=100",Clean test accuracy,0.4,Normalized vote=0.1219
+Q2(d),"SAMME depth=4, rounds=100",Masked test accuracy,0.375,Normalized vote=0.1219
+Q3(a),Single tree,Bias squared,0.397778,Variance=0.645556; mean accuracy=0.4783; SD=0.0550
+Q3(a),Bagging,Bias squared,0.513596,Variance=0.023400; mean accuracy=0.7546; SD=0.0339
+Q3(a),Boosting,Bias squared,0.880129,Variance=0.016738; mean accuracy=0.3500; SD=0.0795
+Q3(b),Shallow depth=2,Bias squared,0.916852,Variance=0.037680; bagged variance=0.011059; accuracy .0600 -> .1608
+Q3(b),Selected unrestricted,Bias squared,0.417556,Variance=0.661611; bagged variance=0.023138; accuracy .4604 -> .7562
+Q3(b),Deep depth=32,Bias squared,0.425496,Variance=0.563642; bagged variance=0.022151; accuracy .4579 -> .7483
